@@ -10,9 +10,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    env:
-      CI: true
-
     strategy:
       matrix:
         node: [16.x]
@@ -32,9 +29,7 @@ jobs:
           path: ~/.npm
           key: ${{ runner.os }}-node
 
-      - name: Validate config file
-        run: |
-          for file in *.json
-          do
-            RENOVATE_CONFIG_FILE=${file} npx --package renovate -c 'renovate-config-validator'
-          done
+      - name: Validate renovate
+        uses: rinchsan/renovate-config-validator@v0.0.8
+        with:
+          pattern: '*.json'
