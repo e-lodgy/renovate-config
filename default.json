@@ -28,6 +28,5 @@
   "separateMinorPatch": true,
   "stabilityDays": 3,
   "prCreation": "not-pending",
-  "prConcurrentLimit": 10,
-  "prHourlyLimit": 4
+  "prConcurrentLimit": 10
 }
