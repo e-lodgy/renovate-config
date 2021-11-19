@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "github>benjaminmal/renovate-config"
+  ],
+  "rangeStrategy": "bump"
+}

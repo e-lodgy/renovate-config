@@ -1,0 +1,33 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "major": {
+    "addLabels": ["major"],
+    "stabilityDays": 5
+  },
+  "minor": {
+    "addLabels": ["minor"]
+  },
+  "patch": {
+    "addLabels": ["patch"],
+    "automerge": true
+  },
+  "packageRules": [
+    {
+      "matchPackagePrefixes": ["elodgy/", "benjaminmal/"],
+      "addLabels": ["intern"],
+      "stabilityDays": 0
+    }
+  ],
+  "labels": ["bot", "dependencies"],
+  "assignees": ["benjaminmal"],
+  "ignoreScripts": true,
+  "schedule": ["after 7pm and before 9am every weekday", "every weekend"],
+  "timezone": "Europe/Paris",
+  "separateMinorPatch": true,
+  "stabilityDays": 3,
+  "prCreation": "not-pending",
+  "prConcurrentLimit": 10,
+  "prHourlyLimit": 4
+}
