@@ -36,3 +36,19 @@ Use it with: `github>benjaminmal/renovate-config:library`
   "rangeStrategy": "bump"
 }
 ```
+
+### Private repo
+Use it with: `github>benjaminmal/renovate-config:private-repo`
+```json
+{
+    "hostRules": [
+        {
+            "matchHost": "https://api.github.com/repos/benjaminmal/",
+            "hostType": "github",
+            "encrypted": {
+                "token": "encryptedToken"
+            }
+        }
+    ]
+}
+```
