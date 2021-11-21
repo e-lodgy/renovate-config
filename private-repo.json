@@ -1,7 +1,6 @@
 {
     "hostRules": [
         {
-            "matchHost": "https://api.github.com/repos/benjaminmal/",
             "hostType": "github",
             "encrypted": {
                 "token": "wcFMA/xDdHCJBTolARAAga4jhgDvCZZmiRBczleO1fTrTDaGvtTdsp2M/NCu2x+5q82gRZVPFC5uOt7nCXmunHEa0A3kz/wmBN84cBc7wup8nh+wy/zCyHRQT4EBG/50gP1b4Vme+c7Me4S/2K3Yu5UOPGGe2a5F+3KBJNC4F2P/b3SP4vSM0UO1NkbRQZkWHomJU1bqoAs9HUT02p4bPFQBcc/oJV+gVEZUTc1zrju2QfvdJTCDhcm0OYFQNfLHo2wcXavTMPchIj4Bw7RO0AZYTvFEyg+tb2Nbu6B62HfHxzAh+MskTjqGfjtYJ7g7QOFsjN5CLQVmUMr+5q+3rm3Rv9MC/axs3TRSpxHeJpaU1m3t1G3rXiqk226Rcbp9eJbwWvRH/B1v/yAS869hNVV4lkSSpIb7ydnmDvBzKOEoBawUBh8fqPeiPtOe5lC2CIQ+uYAHH77vFSj4s5/Ye/1ReXxbThvka/pDnJK1R1vnGVmd/SLrT+FhzIlNCwTIaQVPyZMIc9d4UCg1xAf9kd1GRAls+PZgcKQvTvWrDY78D3yUtE62ImbXylPTpzxTknx4aNDfuZCTjuC7ui5+KcOM864UMk6kaRw2w90pi2lxvvjDxwRDOrcSu8AZlD31PVtLM2FzUhCpMMyI2zQxs5ptZm84OQH15HC0qUe7UGuJGf22kdtENNE6+Vz5YcfSggF38WoxR6ZEJkWFekS2YUQ0wpZIGaREwWj9Ln5wZbkZMZpK01PVqBHdw2jdeTYeJA0tWSRbpdk4ZZxh6uI5hfZQv+UnRBWDUWNyBuPHrHWXzmKktYniThxDNzMEqzORam63lP6uifoTKFIA0Il48qkmlBoFtfx/s7iy6c3Lgd7H10E"
