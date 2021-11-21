@@ -1,7 +1,5 @@
 {
-  "extends": [
-    "config:base"
-  ],
+  "extends": ["config:base"],
   "major": {
     "addLabels": ["major"],
     "stabilityDays": 5
@@ -23,7 +21,11 @@
   "labels": ["bot", "dependencies"],
   "assignees": ["benjaminmal"],
   "ignoreScripts": true,
-  "schedule": ["after 7pm and before 9am every weekday", "every weekend"],
+  "schedule": [
+    "after 7pm every weekday",
+    "every weekend",
+    "before 9am every weekday"
+  ],
   "timezone": "Europe/Paris",
   "separateMinorPatch": true,
   "stabilityDays": 3,
