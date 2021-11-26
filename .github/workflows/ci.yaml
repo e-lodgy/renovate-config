@@ -30,6 +30,6 @@ jobs:
           key: ${{ runner.os }}-node
 
       - name: Validate renovate
-        uses: rinchsan/renovate-config-validator@v0.0.8
+        uses: rinchsan/renovate-config-validator@v0.0.9
         with:
           pattern: '*.json'
