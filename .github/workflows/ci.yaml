@@ -10,11 +10,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    name: 🚧 Build 🚧
+
     strategy:
       matrix:
         node: [16.x]
 
     steps:
+    
+      # --- ⚙️ Setup ⚙️ ----------
+
       - name: Checkout
         uses: actions/checkout@v2
 
@@ -28,6 +33,8 @@ jobs:
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node
+
+      # --- 🛠 Test 🛠 ----------
 
       - name: Validate renovate
         uses: rinchsan/renovate-config-validator@v0.0.9
