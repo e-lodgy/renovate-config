@@ -2,5 +2,5 @@
   "extends": [
     "github>benjaminmal/renovate-config"
   ],
-  "rangeStrategy": "update-lockfile"
+  "rangeStrategy": "bump"
 }
