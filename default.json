@@ -8,7 +8,7 @@
     "addLabels": ["minor"]
   },
   "patch": {
-    "addLabels": ["patch"],
+    "addLabels": ["patch", "automerge"],
     "automerge": true
   },
   "packageRules": [
