@@ -20,20 +20,18 @@ Use it with: `github>benjaminmal/renovate-config:library`
 ```json
 {
   "extends": [
-    "github>benjaminmal/renovate-config"
-  ],
-  "rangeStrategy": "widen"
+    "github>benjaminmal/renovate-config:library"
+  ]
 }
 ```
 
 ### Project
-Use it with: `github>benjaminmal/renovate-config:library`
+Use it with: `github>benjaminmal/renovate-config:project`
 ```json
 {
   "extends": [
-    "github>benjaminmal/renovate-config"
-  ],
-  "rangeStrategy": "bump"
+    "github>benjaminmal/renovate-config:project"
+  ]
 }
 ```
 
@@ -41,14 +39,8 @@ Use it with: `github>benjaminmal/renovate-config:library`
 Use it with: `github>benjaminmal/renovate-config:private-repo`
 ```json
 {
-    "hostRules": [
-        {
-            "matchHost": "https://api.github.com/repos/benjaminmal/",
-            "hostType": "github",
-            "encrypted": {
-                "token": "encryptedToken"
-            }
-        }
-    ]
+  "extends": [
+    "github>benjaminmal/renovate-config:private-repo"
+  ]
 }
 ```
