@@ -15,7 +15,8 @@
     {
       "matchPackagePrefixes": ["elodgy/", "benjaminmal/"],
       "addLabels": ["intern"],
-      "stabilityDays": 0
+      "stabilityDays": 0,
+      "automerge": true
     }
   ],
   "labels": ["bot", "dependencies"],
