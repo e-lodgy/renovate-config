@@ -21,6 +21,7 @@
   ],
   "labels": ["bot", "dependencies"],
   "assignees": ["benjaminmal"],
+  "assignAutomerge": true,
   "ignoreScripts": true,
   "schedule": [
     "after 7pm every weekday",
