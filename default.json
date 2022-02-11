@@ -14,7 +14,7 @@
   "packageRules": [
     {
       "matchPackagePrefixes": ["elodgy/", "benjaminmal/"],
-      "addLabels": ["intern"],
+      "addLabels": ["intern", "automerge"],
       "stabilityDays": 0,
       "automerge": true
     }
