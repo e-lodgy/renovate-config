@@ -5,6 +5,7 @@
   "rangeStrategy": "update-lockfile",
   "lockFileMaintenance": {
     "enabled": true,
-    "automerge": true
+    "automerge": true,
+    "addLabels": ["automerge"]
   }
 }
