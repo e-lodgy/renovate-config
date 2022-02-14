@@ -6,6 +6,7 @@
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true,
-    "addLabels": ["automerge"]
+    "addLabels": ["automerge"],
+    "schedule": ["every weekend"]
   }
 }
