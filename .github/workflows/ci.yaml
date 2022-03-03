@@ -20,25 +20,25 @@ jobs:
         steps:
             # --- ⚙️ Setup ⚙️ ----------
 
-            - name: Checkout
-              uses: actions/checkout@v3
+            -   name: Checkout
+                uses: actions/checkout@v3
 
-            - name: Setup node
-              uses: actions/setup-node@v3
-              with:
-                  node-version: ${{ matrix.node }}
+            -   name: Setup node
+                uses: actions/setup-node@v3
+                with:
+                    node-version: ${{ matrix.node }}
 
-            - name: Cache node
-              uses: actions/cache@v2
-              with:
-                  path: ~/.npm
-                  key: ${{ runner.os }}-node-${{ matrix.node }}
-                  restore-keys: |
-                      ${{ runner.os }}-node-
+            -   name: Cache node
+                uses: actions/cache@v2
+                with:
+                    path: ~/.npm
+                    key: ${{ runner.os }}-node-${{ matrix.node }}
+                    restore-keys: |
+                        ${{ runner.os }}-node-
 
             # --- 🛠 Test 🛠 ----------
 
-            - name: Validate renovate
-              uses: rinchsan/renovate-config-validator@v0.0.10
-              with:
-                  pattern: "*.json"
+            -   name: Validate renovate
+                uses: rinchsan/renovate-config-validator@v0.0.10
+                with:
+                    pattern: "*.json"
