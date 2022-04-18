@@ -39,6 +39,6 @@ jobs:
             # --- 🛠 Test 🛠 ----------
 
             -   name: Validate renovate
-                uses: rinchsan/renovate-config-validator@v0.0.10
+                uses: rinchsan/renovate-config-validator@v0.0.11
                 with:
                     pattern: "*.json"
