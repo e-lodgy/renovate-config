@@ -2,7 +2,7 @@
   "extends": [
     "github>benjaminmal/renovate-config"
   ],
-  "rangeStrategy": "pin",
+  "rangeStrategy": "bump",
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true,
