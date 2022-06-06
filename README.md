@@ -7,7 +7,7 @@ Set the `renovate.json` file like so:
 ```json
 {
   "extends": [
-    "github>benjaminmal/renovate-config"
+    "github>e-lodgy/renovate-config"
   ]
 }
 ```
@@ -16,31 +16,31 @@ Presets
 -------
 
 ### Library
-Use it with: `github>benjaminmal/renovate-config:library`
+Use it with: `github>e-lodgy/renovate-config:library`
 ```json
 {
   "extends": [
-    "github>benjaminmal/renovate-config:library"
+    "github>e-lodgy/renovate-config:library"
   ]
 }
 ```
 
 ### Project
-Use it with: `github>benjaminmal/renovate-config:project`
+Use it with: `github>e-lodgy/renovate-config:project`
 ```json
 {
   "extends": [
-    "github>benjaminmal/renovate-config:project"
+    "github>e-lodgy/renovate-config:project"
   ]
 }
 ```
 
 ### Private repo
-Use it with: `github>benjaminmal/renovate-config:private-repo`
+Use it with: `github>e-lodgy/renovate-config:private-repo`
 ```json
 {
   "extends": [
-    "github>benjaminmal/renovate-config:private-repo"
+    "github>e-lodgy/renovate-config:private-repo"
   ]
 }
 ```
