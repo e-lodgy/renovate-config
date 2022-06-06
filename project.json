@@ -1,6 +1,6 @@
 {
   "extends": [
-    "github>benjaminmal/renovate-config"
+    "github>e-lodgy/renovate-config"
   ],
   "rangeStrategy": "bump",
   "lockFileMaintenance": {
