@@ -13,7 +13,7 @@
   },
   "packageRules": [
     {
-      "matchPackagePrefixes": ["elodgy/"],
+      "matchPackagePrefixes": ["e-lodgy/"],
       "addLabels": ["intern", "automerge"],
       "stabilityDays": 0,
       "automerge": true
