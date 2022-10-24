@@ -2,5 +2,14 @@
   "extends": [
     "github>e-lodgy/renovate-config"
   ],
-  "rangeStrategy": "widen"
+  "packageRules": [
+    {
+      "matchDepTypes": ["require"],
+      "rangeStrategy": "widen"
+    },
+    {
+      "matchDepTypes": ["require-dev"],
+      "rangeStrategy": "bump"
+    }
+  ]
 }
