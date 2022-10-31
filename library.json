@@ -9,7 +9,8 @@
     },
     {
       "matchDepTypes": ["require-dev"],
-      "rangeStrategy": "replace"
+      "rangeStrategy": "replace",
+      "groupName": "Dev dependencies"
     }
   ]
 }
