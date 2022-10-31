@@ -9,8 +9,9 @@
     },
     {
       "matchDepTypes": ["require-dev"],
-      "rangeStrategy": "replace",
-      "groupName": "Dev dependencies"
+      "rangeStrategy": "bump",
+      "groupName": "Dev dependencies",
+      "schedule": ["every weekend"]
     }
   ]
 }
