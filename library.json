@@ -9,7 +9,7 @@
     },
     {
       "matchDepTypes": ["require-dev"],
-      "rangeStrategy": "bump"
+      "rangeStrategy": "replace"
     }
   ]
 }
