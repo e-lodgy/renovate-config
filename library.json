@@ -10,7 +10,7 @@
     {
       "matchDepTypes": ["require-dev"],
       "rangeStrategy": "bump",
-      "groupName": "Dev dependencies",
+      "groupName": "dev dependencies",
       "schedule": ["every weekend"]
     }
   ]
