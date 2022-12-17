@@ -32,6 +32,5 @@
   "separateMinorPatch": true,
   "stabilityDays": 3,
   "prCreation": "not-pending",
-  "prConcurrentLimit": 10,
-  "dependencyDashboardAutoclose": true
+  "prConcurrentLimit": 10
 }
