@@ -11,7 +11,7 @@
       "matchDepTypes": ["require-dev"],
       "rangeStrategy": "bump",
       "groupName": "dev dependencies",
-      "schedule": ["on monday", "before 5:00am"]
+      "schedule": ["before 6am on Monday"]
     },
     {
       "matchPackagePrefixes": ["symfony/"],
