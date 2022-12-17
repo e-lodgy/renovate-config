@@ -8,5 +8,12 @@
     "automerge": true,
     "addLabels": ["automerge"],
     "schedule": ["every weekend"]
-  }
+  },
+  "packageRules": [
+    {
+      "matchPackageNames": ["php"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "enabled": false
+    }
+  ]
 }
