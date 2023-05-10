@@ -36,5 +36,6 @@
   "separateMinorPatch": true,
   "minimumReleaseAge": "3 days",
   "prCreation": "not-pending",
-  "prConcurrentLimit": 10
+  "prConcurrentLimit": 10,
+  "configMigration": true
 }
