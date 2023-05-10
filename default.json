@@ -17,6 +17,10 @@
       "addLabels": ["intern", "automerge"],
       "minimumReleaseAge": "0 days",
       "automerge": true
+    },
+    {
+      "matchPackagePrefixes": ["twig/"],
+      "groupName": "twig"
     }
   ],
   "labels": ["bot", "dependencies"],
