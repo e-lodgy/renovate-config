@@ -2,7 +2,7 @@
   "extends": ["config:base"],
   "major": {
     "addLabels": ["major"],
-    "stabilityDays": 5
+    "minimumReleaseAge": "5 days"
   },
   "minor": {
     "addLabels": ["minor"]
@@ -15,7 +15,7 @@
     {
       "matchPackagePrefixes": ["e-lodgy/"],
       "addLabels": ["intern", "automerge"],
-      "stabilityDays": 0,
+      "minimumReleaseAge": "0 days",
       "automerge": true
     }
   ],
@@ -30,7 +30,7 @@
   ],
   "timezone": "Europe/Paris",
   "separateMinorPatch": true,
-  "stabilityDays": 3,
+  "minimumReleaseAge": "3 days",
   "prCreation": "not-pending",
   "prConcurrentLimit": 10
 }
