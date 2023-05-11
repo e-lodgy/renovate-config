@@ -28,14 +28,6 @@ jobs:
                 with:
                     node-version: ${{ matrix.node }}
 
-            -   name: Cache node
-                uses: actions/cache@v3
-                with:
-                    path: ~/.npm
-                    key: ${{ runner.os }}-node-${{ matrix.node }}
-                    restore-keys: |
-                        ${{ runner.os }}-node-
-
             # --- 🛠 Test 🛠 ----------
 
             -   name: Validate renovate
